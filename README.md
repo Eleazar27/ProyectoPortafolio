@@ -1,2 +1,2 @@
 # ProyectoPortafolio
-Repositorio de trabajo para el desarrollo del sitio personal / Portafolio de trabajo.
+Repositorio de practicas en el curso de aplicaciónes web / Portafolio de trabajo.
