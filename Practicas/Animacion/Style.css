@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    color: white;
+    height: 100px;
+    text-align: center;
+    background-color: blue;
+    animation: square 5s infinite;
+    position: relative;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+
+/* @keyframes square{
+    from{background-color: blue;}
+    to{background-color: red;}
+} */
+
+/* @keyframes square{
+    0%{background-color: blue; left: 0px; top: 0px;}
+    25%{background-color: red; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    100%{background: linear-gradient(to left,red,blue); left: 0px; top: 0px;}
+} */
+
+@keyframes square {
+    from{left: 0px;}
+    to{left: 1200px;}
+}

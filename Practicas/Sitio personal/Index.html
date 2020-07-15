@@ -1,0 +1,149 @@
+<!Doctype html>
+<html long="en">
+        <head>
+        <!-- Caracteristicas especiales -->
+        <meta charset="UTF=8">
+        <meta name="viewport" content="widh=device-widh, initial-scale1.0">
+        <title> Mi sitio Personal </title>
+        <style> 
+        p{
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+        }
+        li{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+        }
+        *{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+    background-color: cornflowerblue;
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/guitarra-png-dibujo-5.png);
+    background-repeat: no-repeat ;
+        }
+        </style>
+        </head>
+    <body>
+        <!-- Parrafo con id para ser comunicada con un enlace -->
+        <p id="contacto"> Eleazar Ruelas Cortés </p>
+        <!-- Tamaño de texto -->
+        <h1>Mi nombre es Eleazar Ruelas Cortés</h1>
+        <h2>Mi nombre es Eleazar Ruelas Cortés</h2>
+        <!-- Salto de linea -->
+        salto de linea
+        <br>
+        aqui sale otra linea
+        <ul>
+            <!---lista desordenada-->
+            <li>Enlace externo: www.google.com</li>
+            <li>Enlace interno: lugar de mi sitio</li>
+        </ul>
+        <br>
+        <ol>
+            <!---Lista ordenada-->
+            <li>Enlace externo - <a href="https://google.com" target="_blank"> ir a google</a></li>
+            <li>Enlace interno - <a href="#contacto" > ir a contacto</a></li>
+        </ol>
+        <br>
+        <!-- Colocar imagen -->
+        <h2>Mostrar imagen</h2>
+        <img class="yo borde" src="imagen/yo.png" alt="Error al mostrar imagen">
+        <br>
+        <img class="yo bordeeste" src="https://i.scdn.co/image/7ddcb0c808ad13779f7489ded7d0bb2eff0b33df" alt="ni pedo">
+    <br>
+    <!-- Creacion de tablas -->
+    <h2 id="titulotabla">Tabla</h2>
+    <table id="tabla">
+        <tr>
+            <th>Edad</th>
+            <th>Correo</th>
+            <th>NickName</th>
+        </tr>
+        <tr>
+            <th>18 años</th>
+            <th>t3r.eleazar@gmail.com</th>
+            <th>Eleazar_27</th>
+        </tr>
+        <tr>
+            <th>19 años</th>
+            <th>gabrielrs@gmail.com</th>
+            <th>Kraken21</th>
+        </tr>
+    </table>
+    <!-- Creamos el bloque DIV -->
+    <!-- Se pueden utilizar clases en los bloques -->
+    <div id="info">
+        <p> Eleazar Ruelas Cortés</p>
+        <table>
+            <tr> Titulo </tr>
+            <tr> <td> Estudiante en tecnologias de la información en la <a href="http://www.utzac.edu.mx" target="_blank"> UTZAC</a></td>
+            </tr>
+        </table>
+    </div>
+    <!-- Seleccionamos informacion con el tag samp -->
+    <section id="Seccion">
+        <p>
+            Una sección con <samp style="border: 1px solid red;"> Datos con estilo</samp> mas información
+        </p>
+    </section>
+    <br>
+    Parte 2
+    <br>
+    
+    mp3
+    wav
+    mpg
+    avi
+
+    <br>
+    <h1>Video</h1>
+    <div id="video">
+        <video width="400" height="400" src="video/pelicula.mp4" type="video/mp4"> vizualizar video</video>
+    </div>
+    <br>
+
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="audio/cancion.mp3" type="audio/mpeg" >
+    </audio>
+    <br>
+    <h1> iframe </h1>
+    <iframe src="test.html" width="900" height="200"></iframe>
+
+    <h1>Formulario</h1>
+    <form>
+        <pre>
+        <!-- Entradas del usuario / types text, number, file, submit, radio, range, hidden--->
+        <label> Ingresa tu nombre</label>
+        <input type="text" placeholder="Nombre sin acentos">
+        <label> Ingresa tu edad</label>
+        <input type="number">
+        <label> Subir archivo</label>
+        <input type="file">
+        <label> ¿Te gusta esta clase?</label>
+        <input type="range" min="80" max="100">
+        <label> Selecciona tu deporte favorito </label>
+        <select id="Deportes">
+            <option value="Fut"> Soccer </option>
+            <option value="Basquet"> Basquetball </option>
+            <option value="BaseBall"> Baseball </option>
+        </select>
+        </pre>
+        <input type="submit">
+    </form>
+    fuera del Formulario
+    <button onclick="Saludar()">
+    Bienvenida al usuario
+    </button>
+    </body>
+
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="scripts/saludo.js"></script>
+
+</html>

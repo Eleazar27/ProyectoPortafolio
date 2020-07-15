@@ -1,0 +1,80 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+
+.menu {
+    min-height: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    padding-top: 20px;
+    background-color: rgb(2, 2, 51);
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 20px 30px;
+    color: gray;
+    text-decoration: none;
+}
+
+.bio{
+    background-image: url('../img/code-113611_1920.jpg');
+    min-height: 100%;
+}
+
+.bio,.yo,.skills {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.saludo{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 31);
+}
+
+.saludo.span.border{
+    background-color: blue;
+    width: 100%;
+    opacity: 6%;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.yo{
+    background-image: url('../img/yo.PNG');
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.skills{
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.final{
+    min-width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 15px;
+    background-color: gray;
+}
